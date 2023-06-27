@@ -1,6 +1,8 @@
 var toggle = document.querySelector('.toggle');
 var bar = document.querySelector('.bar');
+var bar = document.querySelector('.list')
 
 toggle.addEventListener('click', () => {
-    toggle.classList.toggle('show');
+    bar.classList.toggle('show');
+    list.classList.toggle('show');
 })
